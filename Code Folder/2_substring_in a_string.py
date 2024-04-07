@@ -1,6 +1,6 @@
-string=input("Enter the string:")
-print(string)
-if "i" in string:
-    print("substring is found")
+string=input("Enter string:")
+sub_string=input("Enter substring to check in string:")
+if sub_string in string:
+    print("Yes Substring is present!")
 else:
-    print("Not found")
+    print("Substring is not present")
