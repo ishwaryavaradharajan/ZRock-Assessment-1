@@ -1,4 +1,2 @@
-list=input("Enter the list:")
-print(list)
-print(type(list))
-
+list=["Apple","Banana","Cherry","Grapes","Watermelon"]
+print(list.index("Cherry"))
